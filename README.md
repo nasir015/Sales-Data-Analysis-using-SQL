@@ -8,13 +8,16 @@ This project performs an **Exploratory Data Analysis (EDA)** using **pure SQL** 
 
 SupermarketSales-EDA/
 │
-├── exploratory_data_analysis.sql # Main SQL script: setup + analysis
+├── exploratory_data_analysis.sql    # Main SQL script: setup + analysis
 ├── Data/
-│ ├── Customers.csv
-│ ├── Location.csv
-│ ├── Orders.csv
-│ └── Products.csv
+│   ├── Customers.csv
+│   ├── Location.csv
+│   ├── Orders.csv
+│   └── Products.csv
 └── README.md
+
+
+
 
 ## ⚙️ How to Run the Project
 
@@ -28,12 +31,16 @@ SupermarketSales-EDA/
 
 ---
 
+
+
 ## 📊 Key SQL Analyses Performed
 
 ### 🔍 Sales & Revenue
 - Total revenue by category & sub-category
 - Monthly and quarterly sales trends
 - Year-over-year sales & profits
+
+
 
 ### 👥 Customer Insights
 - Repeat customer percentage
@@ -42,6 +49,8 @@ SupermarketSales-EDA/
 - Days since last order
 - Customers with no orders in last 12 months
 
+
+
 ### 📦 Product Performance
 - Top-selling and most profitable products
 - Product price variance
@@ -49,9 +58,13 @@ SupermarketSales-EDA/
 - Products never sold
 - Products with >20% revenue from discounts
 
+
+
 ### 📈 Time-Based Trends
 - Weekly and daily sales trends
 - Rolling 7-day and 3-month moving averages
+
+
 
 ### 🧾 Discount & Profitability
 - Discounted vs non-discounted order counts
@@ -59,10 +72,13 @@ SupermarketSales-EDA/
 - Orders with high profit (>1000)
 - Profit growth per product (>30%)
 
+
+
 ### ⚠️ Anomalies & Ranking
 - Anomalous orders using standard deviation method
 - Category sales ranking per state
 - Top 10% most profitable products
+
 
 
 🧰 Tools Used
@@ -72,6 +88,7 @@ SupermarketSales-EDA/
 - CSV Data Files
 
 
+
 📦 Dataset Overview
 All .csv files used in this project are stored in the Data/ folder:
 - Customers.csv – Customer info
@@ -79,6 +96,7 @@ All .csv files used in this project are stored in the Data/ folder:
 - Products.csv – Product hierarchy & names
 - Location.csv – Geography, city, state
 - Note: This is a sample project; data may be anonymized or synthetic.
+
 
 
 📄 License
