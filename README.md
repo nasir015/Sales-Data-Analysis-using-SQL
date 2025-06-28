@@ -6,8 +6,17 @@ This project performs an **Exploratory Data Analysis (EDA)** using **pure SQL** 
 
 ## 📁 Project Structure
 
-<pre> ```plaintext SupermarketSales-EDA/ │ ├── exploratory_data_analysis.sql # Main SQL script: setup + analysis ├── Data/ │ ├── Customers.csv │ ├── Location.csv │ ├── Orders.csv │ └── Products.csv └── README.md ``` </pre>
-
+```
+SupermarketSales-EDA/
+│
+├── exploratory_data_analysis.sql    # Main SQL script: setup + analysis
+├── Data/
+│   ├── Customers.csv
+│   ├── Location.csv
+│   ├── Orders.csv
+│   └── Products.csv
+└── README.md
+```
 
 
 
